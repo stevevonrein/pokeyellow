@@ -26,7 +26,12 @@ InitPlayerData2:
 	ld hl, wNumBoxItems
 	call InitializeEmptyList
 
-START_MONEY EQU $3000
+   lb bc, ZAPDOS, 95
+	call GivePokemon
+   lb bc, ARTICUNO, 95
+	call GivePokemon
+	
+START_MONEY EQU $9000
 	ld hl, wPlayerMoney + 1
 	ld a, START_MONEY / $100
 	ld [hld], a
