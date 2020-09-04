@@ -159,21 +159,21 @@ OakSpeech:
 	ret
 
 OakSpeechText1:
-	TX_FAR _OakSpeechText1
+	;TX_FAR _OakSpeechText1
 	db "@"
 OakSpeechText2:
-	TX_FAR _OakSpeechText2A
-	TX_CRY_NIDORINA
-	TX_FAR _OakSpeechText2B
+	;TX_FAR _OakSpeechText2A
+	;TX_CRY_NIDORINA
+	;TX_FAR _OakSpeechText2B
 	db "@"
 IntroducePlayerText:
-	TX_FAR _IntroducePlayerText
+	;TX_FAR _IntroducePlayerText
 	db "@"
 IntroduceRivalText:
 	TX_FAR _IntroduceRivalText
 	db "@"
 OakSpeechText3:
-	TX_FAR _OakSpeechText3
+	;TX_FAR _OakSpeechText3
 	db "@"
 
 FadeInIntroPic:
