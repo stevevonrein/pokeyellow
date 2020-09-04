@@ -64,6 +64,12 @@ OakSpeech:
 	ld [wItemQuantity], a
 	call AddItemToInventory  ; give one potion	
 	
+	ld a, NUGGET
+	ld [wcf91], a
+	ld a, 50
+	ld [wItemQuantity], a
+	call AddItemToInventory  ; give one potion	
+	
 	ld a, [wDefaultMap]
 	ld [wDestinationMap], a
 	call SpecialWarpIn

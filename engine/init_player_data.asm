@@ -31,7 +31,7 @@ InitPlayerData2:
    lb bc, ARTICUNO, 95
 	call GivePokemon
 	
-START_MONEY EQU $9000
+START_MONEY EQU $999999
 	ld hl, wPlayerMoney + 1
 	ld a, START_MONEY / $100
 	ld [hld], a
